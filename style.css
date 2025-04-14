@@ -21,7 +21,7 @@ body {
   color: #eef8ce;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  background-image: url(/bg1.jpg),
+  background-image: url(/bg.jpg),
     repeating-linear-gradient(
       to right,
       transparent 0 500px,
@@ -1191,7 +1191,7 @@ header .content-fit nav ul {
   display: inline-block;
   font-family: "Orbitron", sans-serif;
   font-size: 2.5rem;
-  color: #00ffff;
+  color: #dbd808;
   text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff;
   overflow: visible;
   text-overflow: ellipsis;
@@ -1477,8 +1477,8 @@ header .content-fit nav ul {
 }
 
 .connect-link {
-  background-color: #e91e63 !important; /* hot pink */
-  border-color: #ad1457 !important;
+  background-color: #850791 !important; /* hot pink */
+  border-color: #0fc3db !important;
 }
 
 .connect-link:hover {
@@ -1505,7 +1505,7 @@ header .content-fit nav ul {
 }
 
 .neon-footer {
-  background-color: #000; /* pure black base */
+  background-color: #1ab9ce; /* pure black base */
   padding: 40px 20px;
   color: #e0f7fa;
   font-family: 'Orbitron', sans-serif;
@@ -1607,9 +1607,9 @@ header .content-fit nav ul {
 
 /* Neon Footer Base */
 .neon-footer {
-  background: radial-gradient(ellipse at bottom, #0d0d0d 0%, #000000 100%);
+  background: radial-gradient(ellipse at bottom, #03b3df 0%, #bd4602 100%);
   padding: 3rem 1rem;
-  color: #8eff8b;
+  color: #ce871d;
   text-align: center;
   border-top: 2px solid #00ffff50;
   box-shadow:
@@ -1631,7 +1631,7 @@ header .content-fit nav ul {
 
 /* Neon Table (copied for context) */
 .neon-table {
-  background-color: #0d0d0d;
+  background-color: #24b3bd;
   border: 2px solid #8eff8b;
   box-shadow:
     0 0 10px #0ff,
@@ -1656,7 +1656,7 @@ header .content-fit nav ul {
   border-bottom: 1px solid rgba(0, 255, 255, 0.2);
   text-align: left;
   color: #8eff8b;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(199, 2, 238, 0.3);
 }
 
 .neon-table tr:last-child td {

@@ -18,10 +18,10 @@ let mixer; // Variable to handle animations of the model
 const loader = new GLTFLoader(); // Initialize the GLTFLoader for loading 3D models
 
 // Load the 3D bee model
-loader.load("/mtb.glb", function (gltf) {
+loader.load("/lt.glb", function (gltf) {
   bee = gltf.scene; // Extract the scene from the loaded GLTF file
   scene.add(bee); // Add the bee model to the scene
-  bee.scale.set(0.1, 0.1, 0.1); // Scale the bee model to 10% of its original size
+  bee.scale.set(2,2,2); // Scale the bee model to 10% of its original size
   mixer = new THREE.AnimationMixer(bee); // Initialize the animation mixer for the model
   mixer.clipAction(gltf.animations[0]).play(); // Play the first animation clip
 });
@@ -31,10 +31,10 @@ renderer.setSize(window.innerWidth, window.innerHeight); // Set the renderer siz
 document.getElementById("container3D").appendChild(renderer.domElement); // Attach the renderer to the DOM
 
 // Light setup for the scene
-const ambientLight = new THREE.AmbientLight(0xffffff, 1.3); // Ambient light to illuminate the scene uniformly
+const ambientLight = new THREE.AmbientLight(0xffffff, 6); // Ambient light to illuminate the scene uniformly
 scene.add(ambientLight);
 
-const topLight = new THREE.DirectionalLight(0xffffff, 1); // Directional light to simulate sunlight
+const topLight = new THREE.DirectionalLight(0xffffff, 6); // Directional light to simulate sunlight
 topLight.position.set(500, 500, 500); // Position the light in the scene
 scene.add(topLight);
 
