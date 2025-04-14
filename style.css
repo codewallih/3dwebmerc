@@ -21,7 +21,7 @@ body {
   color: #eef8ce;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  background-image: url(/bg.jpg),
+  background-image: url(/bg1.jpg),
     repeating-linear-gradient(
       to right,
       transparent 0 500px,
@@ -1607,14 +1607,14 @@ header .content-fit nav ul {
 
 /* Neon Footer Base */
 .neon-footer {
-  background: radial-gradient(ellipse at bottom, #0e4674 0%, #0b89dd 100%);
+  background: radial-gradient(ellipse at bottom, #04223a 0%, #044d7e 100%);
   padding: 3rem 1rem;
   color: #ce871d;
   text-align: center;
   border-top: 2px solid #00ffff50;
   box-shadow:
     inset 0 0 20px #00fff2,
-    0 0 10px #00fff2;
+    0 0 10px #06505e;
   font-family: "Orbitron", sans-serif;
 }
 

@@ -14,9 +14,9 @@ let mixer;  // Declare a variable to hold the animation mixer for handling anima
 const loader = new GLTFLoader();  // Instantiate the GLTFLoader to load GLB models
 
 // Load the 3D model
-loader.load("/battery_free.glb", function (gltf) {  // Load the GLB model from the path '/battery_free.glb'
+loader.load("/mercedes_amg_petronas__w14_2023.glb", function (gltf) {  // Load the GLB model from the path '/battery_free.glb'
   bee = gltf.scene;  // Store the loaded model in the 'bee' variable
-  bee.scale.set(0.1, 0.1, 0.1);  // Scale the model down by 0.1 in all directions
+  bee.scale.set(0.8,0.8,0.8);  // Scale the model down by 0.1 in all directions
 
   // Compute bounding box and center the model manually to ensure it's positioned correctly
   const box = new THREE.Box3().setFromObject(bee);  // Create a bounding box around the model
@@ -38,8 +38,8 @@ renderer.setSize(window.innerWidth, window.innerHeight);  // Set the renderer si
 document.getElementById("container3D").appendChild(renderer.domElement);  // Append the renderer's canvas to the container with ID "container3D"
 
 // Lighting setup
-scene.add(new THREE.AmbientLight(0xffffff, 6));  // Add ambient light with a white color and intensity of 6
-const topLight = new THREE.DirectionalLight(0xffffff, 6);  // Create a directional light (like sunlight)
+scene.add(new THREE.AmbientLight(0xffffff, 25));  // Add ambient light with a white color and intensity of 6
+const topLight = new THREE.DirectionalLight(0xffffff, 25);  // Create a directional light (like sunlight)
 topLight.position.set(500, 500, 500);  // Set the light's position to (500, 500, 500)
 scene.add(topLight);  // Add the light to the scene
 
