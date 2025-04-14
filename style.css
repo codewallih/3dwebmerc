@@ -61,7 +61,7 @@ header .content-fit {
 }
 
 /* Banner */
-#banner .tron-legacy {
+#banner .neon-legacy {
   text-align: center;
   padding: 2rem;
 }
@@ -75,8 +75,8 @@ header .content-fit {
   height: auto;
 }
 
-.tron-button,
-.fancy-tron-button {
+.neonflash-button,
+.fancy-neonflash-button {
   font-size: clamp(1rem, 3vw, 1.5rem); /* Responsive font size */
 }
 
@@ -976,7 +976,7 @@ header .content-fit nav ul {
 }
 
 /* Main Content Container */
-.tron-legacy {
+.neon-legacy {
   width: min(95vw, 1400px); /* Adapts to screen and limits excessive growth */
   height: 300px; /* Fixed height */
   display: flex;
@@ -991,7 +991,7 @@ header .content-fit nav ul {
 }
 
 /* Tron Legacy - Ultimate Immersion */
-.tron-legacy {
+.neon-legacy {
   background: linear-gradient(135deg, #0a0a0a, #161616);
   border: 3px solid #00ffff;
   border-radius: 20px;
@@ -1003,7 +1003,7 @@ header .content-fit nav ul {
 }
 
 /* Moving Energy Grid */
-.tron-legacy::before {
+.neon-legacy::before {
   content: "";
   position: absolute;
   top: -50%;
@@ -1018,21 +1018,21 @@ header .content-fit nav ul {
     #7d01f1,
     transparent
   );
-  animation: rotate-grid 10s linear infinite, tron-pulse 3s infinite alternate;
+  animation: rotate-grid 10s linear infinite, neonflash-pulse 3s infinite alternate;
   z-index: 1;
   opacity: 0.5;
 }
 
 /* TRON TITLE - WAVE-LIKE MOTION */
-.tron-legacy .title {
+.neon-legacy .title {
   font-family: "Orbitron", sans-serif;
   font-size: 6rem;
   text-transform: uppercase;
-  animation: tron-title-warp 4s infinite ease-in-out;
+  animation: neonflash-title-warp 4s infinite ease-in-out;
 }
 
 /* Holographic Ghost Reflection */
-.tron-legacy .title::before {
+.neon-legacy .title::before {
   content: attr(data-before);
   position: absolute;
   top: 10px;
@@ -1043,7 +1043,7 @@ header .content-fit nav ul {
 }
 
 /*TRON MARQUEE - FLOATING CYBER TEXT */
-.tron-legacy {
+.neon-legacy {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -1073,30 +1073,30 @@ header .content-fit nav ul {
 }
 
 @media (max-width: 480px) {
-  .tron-button,
+  .neonflash-button,
   [data-testid="fancy"] {
     width: 90px;
   }
 
-  .tron-button:hover {
+  .neonflash-button:hover {
     box-shadow: none 0 25px rgb(102, 52, 218);
   }
 }
 
 @media (max-width: 768px) {
-  .tron-button,
+  .neonflash-button,
   [data-testid="fancy"] {
     width: 95px;
   }
 
-  .tron-button:hover {
+  .neonflash-button:hover {
     box-shadow: 0 0 30px rgba(0, 255, 255, 1);
   }
 }
 
 /* Ensures text color remains consistent */
-.tron-button .title,
-.fancy-tron-button .title {
+.neonflash-button .title,
+.fancy-neonflash-button .title {
   color: inherit;
 }
 
@@ -1104,7 +1104,7 @@ header .content-fit nav ul {
 /* Tron Legacy - The Ultimate Groove Edition */
 
 /* TRON LEGACY - ULTIMATE IMMERSION */
-.tron-legacy {
+.neon-legacy {
   background: linear-gradient(135deg, #0a0a0a, #161616);
   border: 3px solid #00ffff;
   border-radius: 20px;
@@ -1129,11 +1129,11 @@ header .content-fit nav ul {
   background-blend-mode: overlay;
 
   /* Hypnotic Floating Panel */
-  animation: tron-groove 6s infinite ease-in-out;
+  animation: neonflash-groove 6s infinite ease-in-out;
 }
 
 /* Moving Energy Grid */
-.tron-legacy::before {
+.neon-legacy::before {
   content: "";
   position: absolute;
   top: -50%;
@@ -1148,13 +1148,13 @@ header .content-fit nav ul {
     #00ffff,
     transparent
   );
-  animation: rotate-grid 10s linear infinite, tron-pulse 3s infinite alternate;
+  animation: rotate-grid 10s linear infinite, neonflash-pulse 3s infinite alternate;
   z-index: 1;
   opacity: 0.5;
 }
 
 /* TRON TITLE - WAVE-LIKE MOTION */
-.tron-legacy .title {
+.neon-legacy .title {
   font-family: "Orbitron", sans-serif;
   font-size: 6rem;
   color: #00ffff;
@@ -1163,11 +1163,11 @@ header .content-fit nav ul {
   z-index: 2;
 
   /* Cybernetic Wobble */
-  animation: tron-title-warp 4s infinite ease-in-out;
+  animation: neonflash-title-warp 4s infinite ease-in-out;
 }
 
 /* Holographic Ghost Reflection */
-.tron-legacy .title::before {
+.neon-legacy .title::before {
   content: attr(data-before);
   position: absolute;
   top: 10px;
@@ -1178,7 +1178,7 @@ header .content-fit nav ul {
 }
 
 /*TRON MARQUEE - FLOATING CYBER TEXT */
-.tron-legacy .marquee-container {
+.neon-legacy .marquee-container {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -1187,7 +1187,7 @@ header .content-fit nav ul {
   overflow-x: hidden;
 }
 
-.tron-legacy .marquee-text {
+.neon-legacy .marquee-text {
   display: inline-block;
   font-family: "Orbitron", sans-serif;
   font-size: 2.5rem;
@@ -1198,17 +1198,17 @@ header .content-fit nav ul {
   white-space: nowrap;
 
   /* Marquee Motion */
-  animation: tron-marquee 8s linear infinite,
-    tron-wavy-text 2s infinite ease-in-out;
+  animation: neonflash-marquee 8s linear infinite,
+    neonflash-wavy-text 2s infinite ease-in-out;
 }
 
 /* 💡 Interactive Hover Effects */
-.tron-legacy .marquee-text:hover {
-  animation: tron-hover-glitch 0.3s infinite alternate;
+.neon-legacy .marquee-text:hover {
+  animation: neonflash-hover-glitch 0.3s infinite alternate;
 }
 
 /* 🔥 KEYFRAMES - Hypnotic Sway */
-@keyframes tron-groove {
+@keyframes neonflash-groove {
   0% {
     transform: rotateX(0deg) rotateY(0deg) scale(1);
   }
@@ -1227,7 +1227,7 @@ header .content-fit nav ul {
 }
 
 /*Title Flicker & Depth Shift */
-@keyframes tron-title-warp {
+@keyframes neonflash-title-warp {
   0% {
     transform: translateY(0px);
     opacity: 1;
@@ -1251,7 +1251,7 @@ header .content-fit nav ul {
 }
 
 /*Smooth Floating Marquee */
-@keyframes tron-marquee {
+@keyframes neonflash-marquee {
   0% {
     transform: translateX(100%);
   }
@@ -1261,7 +1261,7 @@ header .content-fit nav ul {
 }
 
 /* ⚡ Glitchy Flicker on Hover */
-@keyframes tron-hover-glitch {
+@keyframes neonflash-hover-glitch {
   0% {
     opacity: 1;
     transform: scale(1);
@@ -1287,7 +1287,7 @@ header .content-fit nav ul {
 }
 
 /*Energy Pulsation */
-@keyframes tron-pulse {
+@keyframes neonflash-pulse {
   0% {
     box-shadow: 0 0 50px rgba(0, 255, 255, 0.7), 0 0 90px rgba(0, 255, 255, 0.5);
   }
@@ -1297,7 +1297,7 @@ header .content-fit nav ul {
 }
 
 /*Text Wave Effect */
-@keyframes tron-wavy-text {
+@keyframes neonflash-wavy-text {
   0% {
     transform: translateY(0px);
   }
@@ -1311,7 +1311,7 @@ header .content-fit nav ul {
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"); /* Futuristic font */
 
-.tron-button {
+.neonflash-button {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -1333,11 +1333,11 @@ header .content-fit nav ul {
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  animation: tron-glow 1.5s infinite alternate;
+  animation: neonflash-glow 1.5s infinite alternate;
 }
 
 /* Glowing effect */
-.tron-button::before {
+.neonflash-button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1348,17 +1348,17 @@ header .content-fit nav ul {
   transition: left 0.3s ease-in-out;
 }
 
-.tron-button:hover::before {
+.neonflash-button:hover::before {
   left: 100%;
 }
 
-.tron-button:hover {
+.neonflash-button:hover {
   box-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 0.8);
   transform: scale(1.15);
 }
 
 /* Pulsating Glow */
-@keyframes tron-glow {
+@keyframes neonflash-glow {
   0%,
   100% {
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.6);
@@ -1369,11 +1369,11 @@ header .content-fit nav ul {
 }
 
 /* Ensures text color remains consistent */
-.tron-button .title {
+.neonflash-button .title {
   color: inherit;
 }
 
-.fancy-tron-button {
+.fancy-neonflash-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1392,7 +1392,7 @@ header .content-fit nav ul {
 }
 
 /* Glowing effect */
-.fancy-tron-button::before {
+.fancy-neonflash-button::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1403,17 +1403,17 @@ header .content-fit nav ul {
   transition: all 0.3s ease-in-out;
 }
 
-.fancy-tron-button:hover::before {
+.fancy-neonflash-button:hover::before {
   left: 100%;
 }
 
-.fancy-tron-button:hover {
+.fancy-neonflash-button:hover {
   background: #00ffff;
   color: #161616;
   box-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 0.9);
 }
 
-.fancy-tron-button .title {
+.fancy-neonflash-button .title {
   font-size: 18px; /* Reduced from 24px */
   font-weight: bold;
   text-transform: uppercase;
@@ -1422,7 +1422,7 @@ header .content-fit nav ul {
   transition: color 0.3s ease-in-out;
 }
 
-.fancy-tron-button:hover .title {
+.fancy-neonflash-button:hover .title {
   color: #161616;
 }
 
@@ -1607,7 +1607,7 @@ header .content-fit nav ul {
 
 /* Neon Footer Base */
 .neon-footer {
-  background: radial-gradient(ellipse at bottom, #03b3df 0%, #bd4602 100%);
+  background: radial-gradient(ellipse at bottom, #0e4674 0%, #0b89dd 100%);
   padding: 3rem 1rem;
   color: #ce871d;
   text-align: center;
